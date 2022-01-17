@@ -1,0 +1,236 @@
+<style>
+    html,body {padding:0;margin:0;}
+    .wrap {
+        font:12px Arial, san-serif;
+    }
+    h1.likert-header {
+        padding-left:4.25%;
+        margin:20px 0 0;
+    }
+    form .statement {
+        display:block;
+        font-size: 14px;
+        font-weight: bold;
+        padding: 10px 0 0 0;
+        margin-bottom:10px;
+    }
+    form .likert {
+        list-style:none;
+        width:100%;
+        margin:0;
+        padding:0 0 35px;
+        display:block;
+        border-bottom:2px solid #efefef;
+    }
+    form .likert:last-of-type {border-bottom:0;}
+    form .likert:before {
+        content: '';
+        position:relative;
+        top:11px;
+        display:block;
+        background-color:#efefef;
+        height:4px;
+        width:78%;
+    }
+    form .likert li {
+        display:inline-block;
+        width:10%;
+        text-align:center;
+        vertical-align: top;
+    }
+    form .likert li input[type=radio] {
+        display:block;
+        position:relative;
+        top:0;
+        left:50%;
+        margin-left:-6px;
+
+    }
+    form .likert li label {width:100%;}
+    body { 
+        max-width: 1080px; 
+        margin: 0 auto !important; 
+        float: none !important; 
+        padding: 25px;
+    }
+</style>
+
+<!DOCTYPE html>
+<html lang="en">
+    <head><meta charset="UTF-8"></head>
+<body>
+<div align="left" style="text-align: justify; ">
+    <form>
+    <h2 align="center">5. Teil: Fragen zum Privatsphäreverhalten</h2>
+    <div align="left" style="text-align: justify">
+        <p>Im Folgenden werden Ihnen Fragen zu Ihrem allgemeinen Verhalten zu Ihrer Privatsphäreeinstellungen gestellt. Bitte beantworten Sie folgende Fragen so wahrheitsgetreu wie möglich. </p>
+        <div class="q1">
+            <span> <b>1. Wie oft nutzen Sie einen Werbeblocker (ad blocker)? </b></span>
+            <br>
+            <input type="radio" name="q1" value="Nie">
+            <label> Nie </label><br>
+            <input type="radio" name="q1" value="Selten">
+            <label> Selten </label><br>
+            <input type="radio" name="q1" value="Manchmal">
+            <label> Manchmal </label><br>
+            <input type="radio" name="q1" value="Oft">
+            <label> Oft </label><br>
+            <input type="radio" name="q1" value="Sehr oft">
+            <label> Sehr oft </label><br>
+            <input type="radio" name="q1" value="Weiß ich nicht/keine Angabe">
+            <label> Weiß ich nicht/keine Angabe </label><br>
+        </div><br>
+        <div class="q2">
+            <span> <b>2. Wie oft löschen Sie Cookies? </b></span>
+            <br>
+            <input type="radio" name="q2" value="Nie">
+            <label> Nie </label><br>
+            <input type="radio" name="q2" value="Selten">
+            <label> Selten </label><br>
+            <input type="radio" name="q2" value="Manchmal">
+            <label> Manchmal </label><br>
+            <input type="radio" name="q2" value="Oft">
+            <label> Oft </label><br>
+            <input type="radio" name="q2" value="Sehr oft">
+            <label> Sehr oft </label><br>
+            <input type="radio" name="q2" value="Weiß ich nicht/keine Angabe">
+            <label> Weiß ich nicht/keine Angabe </label><br>
+        </div><br>
+        <div class="q3">
+            <span> <b>3. Wie oft entscheiden Sie sich, eine Webseite nicht zu besuchen, weil sie nur zugänglich ist, wenn Sie Cookies akzeptieren? </b></span>
+            <br>
+            <input type="radio" name="q3" value="Nie">
+            <label> Nie </label><br>
+            <input type="radio" name="q3" value="Selten">
+            <label> Selten </label><br>
+            <input type="radio" name="q3" value="Manchmal">
+            <label> Manchmal </label><br>
+            <input type="radio" name="q3" value="Oft">
+            <label> Oft </label><br>
+            <input type="radio" name="q3" value="Sehr oft">
+            <label> Sehr oft </label><br>
+            <input type="radio" name="q3" value="Weiß ich nicht/keine Angabe">
+            <label> Weiß ich nicht/keine Angabe </label><br>
+        </div><br>
+        <div class="q4">
+            <span> <b>4. Wie oft lehnen Sie Cookies ab, wenn Webseiten die Möglichkeit anbieten? </b></span>
+            <br>
+            <input type="radio" name="q4" value="Nie">
+            <label> Nie </label><br>
+            <input type="radio" name="q4" value="Selten">
+            <label> Selten </label><br>
+            <input type="radio" name="q4" value="Manchmal">
+            <label> Manchmal </label><br>
+            <input type="radio" name="q4" value="Oft">
+            <label> Oft </label><br>
+            <input type="radio" name="q4" value="Sehr oft">
+            <label> Sehr oft </label><br>
+            <input type="radio" name="q4" value="Weiß ich nicht/keine Angabe">
+            <label> Weiß ich nicht/keine Angabe </label><br>
+        </div><br>
+        <div class="q5">
+            <span><b>5. Wie oft nutzen Sie den privaten Modus in Ihrem Browser? </b></span>
+            <br>
+            <input type="radio" name="q5" value="Nie">
+            <label> Nie </label><br>
+            <input type="radio" name="q5" value="Selten">
+            <label> Selten </label><br>
+            <input type="radio" name="q5" value="Manchmal">
+            <label> Manchmal </label><br>
+            <input type="radio" name="q5" value="Oft">
+            <label> Oft </label><br>
+            <input type="radio" name="q5" value="Sehr oft">
+            <label> Sehr oft </label><br>
+            <input type="radio" name="q5" value="Weiß ich nicht/keine Angabe">
+            <label> Weiß ich nicht/keine Angabe </label><br>
+        </div><br>
+        <div class="q6">
+            <span> <b>6. Wie oft löschen Sie Ihren Browserverlauf? </b></span>
+            <br>
+            <input type="radio" name="q6" value="Nie">
+            <label> Nie </label><br>
+            <input type="radio" name="q6" value="Selten">
+            <label> Selten </label><br>
+            <input type="radio" name="q6" value="Manchmal">
+            <label> Manchmal </label><br>
+            <input type="radio" name="q6" value="Oft">
+            <label> Oft </label><br>
+            <input type="radio" name="q6" value="Sehr oft">
+            <label> Sehr oft </label><br>
+            <input type="radio" name="q6" value="Weiß ich nicht/keine Angabe">
+            <label> Weiß ich nicht/keine Angabe </label><br>
+        </div><br>
+        <div class="q7">
+            <span> <b>7. Wie oft nutzen Sie Opt-out Webseiten (wie <a href="https://www.youronlinechoices.com/" target="_blank">youronlinechoices.com/</a>) um zu konfigurieren, ob Werbung auf persönlichen Informationen basiert? </b></span>
+            <br>
+            <input type="radio" name="q7" value="Nie">
+            <label> Nie </label><br>
+            <input type="radio" name="q7" value="Selten">
+            <label> Selten </label><br>
+            <input type="radio" name="q7" value="Manchmal">
+            <label> Manchmal </label><br>
+            <input type="radio" name="q7" value="Oft">
+            <label> Oft </label><br>
+            <input type="radio" name="q7" value="Sehr oft">
+            <label> Sehr oft </label><br>
+            <input type="radio" name="q7" value="Weiß ich nicht/keine Angabe">
+            <label> Weiß ich nicht/keine Angabe </label><br>
+        </div><br>
+        <div class="q8">
+            <span> <b>8. Wie oft nutzen Sie die “Do Not Track” Funktion in Ihrem Browser?</b></span>
+            <br>
+            <input type="radio" name="q8" value="Nie">
+            <label> Nie </label><br>
+            <input type="radio" name="q8" value="Selten">
+            <label> Selten </label><br>
+            <input type="radio" name="q8" value="Manchmal">
+            <label> Manchmal </label><br>
+            <input type="radio" name="q8" value="Oft">
+            <label> Oft </label><br>
+            <input type="radio" name="q8" value="Sehr oft">
+            <label> Sehr oft </label><br>
+            <input type="radio" name="q8" value="Weiß ich nicht/keine Angabe">
+            <label> Weiß ich nicht/keine Angabe </label><br>
+        </div><br>
+        <div class="q9">
+            <span> <b>9. Wie oft nutzen Sie besondere Software in Ihrem Browser (wie Ghostery and Abine Taco) die es Firmen erschwert, Ihre persönlichen Daten zu sammeln? </b></span>
+            <br>
+            <input type="radio" name="q9" value="Nie">
+            <label> Nie </label><br>
+            <input type="radio" name="q9" value="Selten">
+            <label> Selten </label><br>
+            <input type="radio" name="q9" value="Manchmal">
+            <label> Manchmal </label><br>
+            <input type="radio" name="q9" value="Oft">
+            <label> Oft </label><br>
+            <input type="radio" name="q9" value="Sehr oft">
+            <label> Sehr oft </label><br>
+            <input type="radio" name="q9" value="Weiß ich nicht/keine Angabe">
+            <label> Weiß ich nicht/keine Angabe </label><br>
+        </div><br>
+        <div class="q10">
+            <span> <b>10. Wie oft geben Sie falsche Informationen über sich selbst an (zum Beispiel einen falschen Namen oder eine falsche E-Mail-Adresse) wenn Sie nach derartigen Informationen gefragt werden? </b></span>
+            <br>
+            <input type="radio" name="q10" value="Nie">
+            <label> Nie </label><br>
+            <input type="radio" name="q10" value="Selten">
+            <label> Selten </label><br>
+            <input type="radio" name="q10" value="Manchmal">
+            <label> Manchmal </label><br>
+            <input type="radio" name="q10" value="Oft">
+            <label> Oft </label><br>
+            <input type="radio" name="q10" value="Sehr oft">
+            <label> Sehr oft </label><br>
+            <input type="radio" name="q10" value="Weiß ich nicht/keine Angabe">
+            <label> Weiß ich nicht/keine Angabe </label><br>
+        </div><br>
+        <br><br><br>
+    </div>
+    </form>
+</div>
+<form action="2_6_Privacy__Efficacy.html">
+<input type="submit" value="Nächste Seite" style="float: right;"/>
+</form>
+<br><br>
+</body>
+</html>

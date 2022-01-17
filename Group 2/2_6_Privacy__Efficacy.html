@@ -1,0 +1,230 @@
+<style>
+    html,body {padding:0;margin:0;}
+    .wrap {
+        font:12px Arial, san-serif;
+    }
+    h1.likert-header {
+        padding-left:4.25%;
+        margin:20px 0 0;
+    }
+    form .statement {
+        display:block;
+        font-size: 14px;
+        font-weight: bold;
+        padding: 10px 0 0 0;
+        margin-bottom:10px;
+    }
+    form .likert {
+        list-style:none;
+        width:100%;
+        margin:0;
+        padding:0 0 35px;
+        display:block;
+        border-bottom:2px solid #efefef;
+    }
+    form .likert:last-of-type {border-bottom:0;}
+    form .likert:before {
+        content: '';
+        position:relative;
+        top:11px;
+        display:block;
+        background-color:#efefef;
+        height:4px;
+        width:78%;
+    }
+    form .likert li {
+        display:inline-block;
+        width:10%;
+        text-align:center;
+        vertical-align: top;
+    }
+    form .likert li input[type=radio] {
+        display:block;
+        position:relative;
+        top:0;
+        left:50%;
+        margin-left:-6px;
+
+    }
+    form .likert li label {width:100%;}
+
+    body { 
+        max-width: 1080px; 
+        margin: 0 auto !important; 
+        float: none !important; 
+        padding: 25px;
+    }
+</style>
+
+<!DOCTYPE html>
+<html lang="en">
+    <head><meta charset="UTF-8"></head>
+
+<body>
+<div align="left" style="text-align: justify; ">
+    <form>
+    <h2 align="center">6. Teil: Fragen zur Wirksamkeit von Privatsphäreeinstellungen </h2>
+    <div align="left" style="text-align: justify">
+        <p>Im Folgenden werden Ihnen Fragen zur Wirksamkeit Ihrer Privatsphäreeinstellungen gestellt. Bitte beantworten Sie folgende Fragen so wahrheitsgetreu wie möglich. </p>
+    <div class="wrap">
+        <form>
+            <label class="statement">1. Ich bin in der Lage, meine persönlichen Daten im Internet, zum Beispiel mein Surfverhalten, zu schützen. </label>
+            <ul class='likert'>
+                <li>
+                    <input type="radio" name="s1_q1" value="strong_disagree" required>
+                    <label>Stimme gar nicht zu</label>
+                </li>
+                <li>
+                    <input type="radio" name="s1_q1" value="disagree">
+                    <label>Stimme nicht zu</label>
+                </li>
+                <li>
+                    <input type="radio" name="s1_q1" value="more_or_less_disagree">
+                    <label>Stimme eher nicht zu</label>
+                </li>
+                <li>
+                    <input type="radio" name="s1_q1" value="neutral">
+                    <label>Stimme weder zu noch lehne ich ab</label>
+                </li>
+                <li>
+                    <input type="radio" name="s1_q1" value="more_or_less_agree">
+                    <label>Stimme eher zu</label>
+                </li>
+                <li>
+                    <input type="radio" name="s1_q1" value="agree">
+                    <label>Stimme zu</label>
+                </li>
+                <li>
+                    <input type="radio" name="s1_q1" value="strong_agree">
+                    <label>Stimme voll zu</label>
+                </li>
+            </ul>
+
+            <input type="radio" name="q10" value="Weiß ich nicht/keine Angabe">
+            <label> Weiß ich nicht/keine Angabe </label><br>
+
+            <label class="statement">2. Ich bin mir sicher, dass ich meine Privatsphäre im Internet schützen kann. </label>
+            <ul class='likert'>
+                <li>
+                    <input type="radio" name="s1_q1" value="strong_disagree" required>
+                    <label>Stimme gar nicht zu</label>
+                </li>
+                <li>
+                    <input type="radio" name="s1_q1" value="disagree">
+                    <label>Stimme nicht zu</label>
+                </li>
+                <li>
+                    <input type="radio" name="s1_q1" value="more_or_less_disagree">
+                    <label>Stimme eher nicht zu</label>
+                </li>
+                <li>
+                    <input type="radio" name="s1_q1" value="neutral">
+                    <label>Stimme weder zu noch lehne ich ab</label>
+                </li>
+                <li>
+                    <input type="radio" name="s1_q1" value="more_or_less_agree">
+                    <label>Stimme eher zu</label>
+                </li>
+                <li>
+                    <input type="radio" name="s1_q1" value="agree">
+                    <label>Stimme zu</label>
+                </li>
+                <li>
+                    <input type="radio" name="s1_q1" value="strong_agree">
+                    <label>Stimme voll zu</label>
+                </li>
+            </ul>
+
+            <input type="radio" name="q10" value="Weiß ich nicht/keine Angabe">
+            <label> Weiß ich nicht/keine Angabe </label><br>
+
+            <label class="statement">3. Ich kann sicherstellen, dass Unternehmen meine persönlichen Daten nicht sammeln und mein Verhalten im Internet nicht verfolgen können. </label>
+            <ul class='likert'>
+                <li>
+                    <input type="radio" name="s1_q1" value="strong_disagree" required>
+                    <label>Stimme gar nicht zu</label>
+                </li>
+                <li>
+                    <input type="radio" name="s1_q1" value="disagree">
+                    <label>Stimme nicht zu</label>
+                </li>
+                <li>
+                    <input type="radio" name="s1_q1" value="more_or_less_disagree">
+                    <label>Stimme eher nicht zu</label>
+                </li>
+                <li>
+                    <input type="radio" name="s1_q1" value="neutral">
+                    <label>Stimme weder zu noch lehne ich ab</label>
+                </li>
+                <li>
+                    <input type="radio" name="s1_q1" value="more_or_less_agree">
+                    <label>Stimme eher zu</label>
+                </li>
+                <li>
+                    <input type="radio" name="s1_q1" value="agree">
+                    <label>Stimme zu</label>
+                </li>
+                <li>
+                    <input type="radio" name="s1_q1" value="strong_agree">
+                    <label>Stimme voll zu</label>
+                </li>
+            </ul>
+
+
+            <input type="radio" name="q10" value="Weiß ich nicht/keine Angabe">
+            <label> Weiß ich nicht/keine Angabe </label><br>
+
+            <label class="statement">4. Denken Sie, dass die folgenden Schutzmaßnahmen ein wirksames Mittel sind, um das Sammeln, die Nutzung und die Weitergabe von persönlichen Daten im Internet zu verhindern? </label>
+            <ol>
+                <li><span>Installieren eines Werbeblockers</span></li>
+                <li><span>Löschen von Cookies</span></li>
+                <li><span>Ablehnung von Cookies</span></li>
+                <li><span>Die Verwendung des privaten Modus in einem Browser
+</span></li>
+                <li><span>Löschen des Browserverlaufs</span></li>
+                <li><span>Die Verwendung spezieller Software in einem Browser (wie Ghostery und Abine Taco), die das Sammeln von persönlichen Daten erschwert</span></li>
+                <li><span>Die Angabe falscher Informationen über sich selbst (z. B. ein falscher Name oder eine falsche E-Mail-Adresse), wenn man nach diesen Informationen gefragt wird</span></li>
+            </ol>
+            <ul class='likert'>
+                <li>
+                    <input type="radio" name="s1_q1" value="strong_disagree" required>
+                    <label>Stimme gar nicht zu</label>
+                </li>
+                <li>
+                    <input type="radio" name="s1_q1" value="disagree">
+                    <label>Stimme nicht zu</label>
+                </li>
+                <li>
+                    <input type="radio" name="s1_q1" value="more_or_less_disagree">
+                    <label>Stimme eher nicht zu</label>
+                </li>
+                <li>
+                    <input type="radio" name="s1_q1" value="neutral">
+                    <label>Stimme weder zu noch lehne ich ab</label>
+                </li>
+                <li>
+                    <input type="radio" name="s1_q1" value="more_or_less_agree">
+                    <label>Stimme eher zu</label>
+                </li>
+                <li>
+                    <input type="radio" name="s1_q1" value="agree">
+                    <label>Stimme zu</label>
+                </li>
+                <li>
+                    <input type="radio" name="s1_q1" value="strong_agree">
+                    <label>Stimme voll zu</label>
+                </li>
+            </ul>
+
+            <input type="radio" name="q10" value="Weiß ich nicht/keine Angabe">
+            <label> Weiß ich nicht/keine Angabe </label><br>
+    </div>
+    </form>
+</div>
+</div>
+<form action="2_7_Pricacy_Concern.html">
+<input type="submit" value="Nächste Seite" style="float: right;"/>
+</form>
+<br><br>
+</body>
+</html>
