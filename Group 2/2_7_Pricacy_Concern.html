@@ -1,0 +1,395 @@
+<style>
+    html,body {padding:0;margin:0;}
+    .wrap {
+        font:12px Arial, san-serif;
+    }
+    h1.likert-header {
+        padding-left:4.25%;
+        margin:20px 0 0;
+    }
+    form .statement {
+        display:block;
+        font-size: 14px;
+        font-weight: bold;
+        padding: 10px 0 0 0;
+        margin-bottom:10px;
+    }
+    form .likert {
+        list-style:none;
+        width:100%;
+        margin:0;
+        padding:0 0 35px;
+        display:block;
+        border-bottom:2px solid #efefef;
+    }
+    form .likert:last-of-type {border-bottom:0;}
+    form .likert:before {
+        content: '';
+        position:relative;
+        top:11px;
+        display:block;
+        background-color:#efefef;
+        height:4px;
+        width:78%;
+    }
+    form .likert li {
+        display:inline-block;
+        width:10%;
+        text-align:center;
+        vertical-align: top;
+    }
+    form .likert li input[type=radio] {
+        display:block;
+        position:relative;
+        top:0;
+        left:50%;
+        margin-left:-6px;
+
+    }
+    form .likert li label {width:100%;}
+    body { 
+        max-width: 1080px; 
+        margin: 0 auto !important; 
+        float: none !important; 
+        padding: 25px;
+    }
+</style>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fragebogen: Privacy Concern</title>
+</head>
+<body>
+    <div align="left" style="text-align: justify; ">
+        <br>
+        <h2 align="center">7. Teil: Fragebogen zur Allgemeinen Einstellung zu Ihrer Privatsphäre</h2>
+        <p>
+            Im Folgenden werden Ihnen Fragen zu Ihrer allgemeinen Einstellung zu Ihrer Privatsphäre gestellt. Bitte beantworten Sie folgende Fragen so wahrheitsgetreu wie möglich. 
+        </p>
+        <div class="wrap">
+            <form>
+                <label class="statement">1. Im Vergleich zu meinen Freunden*innen finde ich, dass die eigene Kontrolle persönlicher Informationen das Wichtigste in der Privatsphäre eines Nutzers von Onlinediensten ist. </label>
+                <ul class='likert'>
+                    <li>
+                        <input type="radio" name="s1_q1" value="strong_disagree" required>
+                        <label>Stimme gar nicht zu</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="s1_q1" value="disagree">
+                        <label>Stimme nicht zu</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="s1_q1" value="more_or_less_disagree">
+                        <label>Stimme eher nicht zu</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="s1_q1" value="neutral">
+                        <label>Stimme weder zu noch lehne ich ab</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="s1_q1" value="more_or_less_agree">
+                        <label>Stimme eher zu</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="s1_q1" value="agree">
+                        <label>Stimme zu</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="s1_q1" value="strong_agree">
+                        <label>Stimme voll zu</label>
+                    </li>
+                </ul>
+                <label class="statement">2. Der Datenschutz gibt mir das Recht, meine persönlichen Informationen selbst zu kontrollieren und zu entscheiden, wie sie gesammelt, verwendet und weitergeteilt werden. </label>
+                <ul class='likert'>
+                    <li>
+                        <input type="radio" name="s1_q2" value="strong_disagree" required>
+                        <label>Stimme gar nicht zu</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="s1_q2" value="disagree">
+                        <label>Stimme nicht zu</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="s1_q2" value="more_or_less_disagree">
+                        <label>Stimme eher nicht zu</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="s1_q2" value="neutral">
+                        <label>Stimme weder zu noch lehne ich ab</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="s1_q2" value="more_or_less_agree">
+                        <label>Stimme eher zu</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="s1_q2" value="agree">
+                        <label>Stimme zu</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="s1_q2" value="strong_agree">
+                        <label>Stimme voll zu</label>
+                    </li>
+                </ul>
+                <label class="statement">3. Ich bin überzeugt davon, dass die Privatsphäre verletzt wird, wenn ich aufgrund einer Marketingaktion die Kontrolle über meine Daten teilweise oder komplett aufgeben musste. </label>
+                <ul class='likert'>
+                    <li>
+                        <input type="radio" name="s1_q3" value="strong_disagree" required>
+                        <label>Stimme gar nicht zu</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="s1_q3" value="disagree">
+                        <label>Stimme nicht zu</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="s1_q3" value="more_or_less_disagree">
+                        <label>Stimme eher nicht zu</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="s1_q3" value="neutral">
+                        <label>Stimme weder zu noch lehne ich ab</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="s1_q3" value="more_or_less_agree">
+                        <label>Stimme eher zu</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="s1_q3" value="agree">
+                        <label>Stimme zu</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="s1_q3" value="strong_agree">
+                        <label>Stimme voll zu</label>
+                    </li>
+                </ul>
+                <label class="statement">4. Im Vergleich mit anderen bin ich stark davon überzeugt, dass online Unternehmen immer bekannt geben sollten, wie sie die Daten sammeln, bearbeiten und verwenden. </label>
+                <ul class='likert'>
+                    <li>
+                        <input type="radio" name="s1_q4" value="strong_disagree" required>
+                        <label>Stimme gar nicht zu</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="s1_q4" value="disagree">
+                        <label>Stimme nicht zu</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="s1_q4" value="more_or_less_disagree">
+                        <label>Stimme eher nicht zu</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="s1_q4" value="neutral">
+                        <label>Stimme weder zu noch lehne ich ab</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="s1_q4" value="more_or_less_agree">
+                        <label>Stimme eher zu</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="s1_q4" value="agree">
+                        <label>Stimme zu</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="s1_q4" value="strong_agree">
+                        <label>Stimme voll zu</label>
+                    </li>
+                </ul>
+                <label class="statement">5. Eine gute Datenschutzpolitik sollte eine eindeutige und unübersehbare Bekanntmachung zur Erhebung, Bearbeitung und Verwendung meiner Daten beinhalten. </label>
+                <ul class='likert'>
+                    <li>
+                        <input type="radio" name="s1_q5" value="strong_disagree" required>
+                        <label>Stimme gar nicht zu</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="s1_q5" value="disagree">
+                        <label>Stimme nicht zu</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="s1_q5" value="more_or_less_disagree">
+                        <label>Stimme eher nicht zu</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="s1_q5" value="neutral">
+                        <label>Stimme weder zu noch lehne ich ab</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="s1_q5" value="more_or_less_agree">
+                        <label>Stimme eher zu</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="s1_q5" value="agree">
+                        <label>Stimme zu</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="s1_q5" value="strong_agree">
+                        <label>Stimme voll zu</label>
+                    </li>
+                </ul>
+                <label class="statement">6. Es ist mir sehr wichtig, dass ich darüber informiert bin, wie meine persönlichen Informationen verwendet werden. </label>
+                <ul class='likert'>
+                    <li>
+                        <input type="radio" name="s1_q6" value="strong_disagree" required>
+                        <label>Stimme gar nicht zu</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="s1_q6" value="disagree">
+                        <label>Stimme nicht zu</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="s1_q6" value="more_or_less_disagree">
+                        <label>Stimme eher nicht zu</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="s1_q6" value="neutral">
+                        <label>Stimme weder zu noch lehne ich ab</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="s1_q6" value="more_or_less_agree">
+                        <label>Stimme eher zu</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="s1_q6" value="agree">
+                        <label>Stimme zu</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="s1_q6" value="strong_agree">
+                        <label>Stimme voll zu</label>
+                    </li>
+                </ul>
+    
+                <label class="statement">7. Für gewöhnlich stört es mich, wenn online Unternehmen nach meinen persönlichen Informationen fragen.  </label>
+                <ul class='likert'>
+                    <li>
+                        <input type="radio" name="s1_q7" value="strong_disagree" required>
+                        <label>Stimme gar nicht zu</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="s1_q7" value="disagree">
+                        <label>Stimme nicht zu</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="s1_q7" value="more_or_less_disagree">
+                        <label>Stimme eher nicht zu</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="s1_q7" value="neutral">
+                        <label>Stimme weder zu noch lehne ich ab</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="s1_q7" value="more_or_less_agree">
+                        <label>Stimme eher zu</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="s1_q7" value="agree">
+                        <label>Stimme zu</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="s1_q7" value="strong_agree">
+                        <label>Stimme voll zu</label>
+                    </li>
+                </ul>
+                <label class="statement">8. Wenn online  Unternehmen persönliche Informationen abfragen, überlege ich manchmal zweimal, bevor ich diese angebe.  </label>
+                <ul class='likert'>
+                    <li>
+                        <input type="radio" name="s1_q8" value="strong_disagree" required>
+                        <label>Stimme gar nicht zu</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="s1_q8" value="disagree">
+                        <label>Stimme nicht zu</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="s1_q8" value="more_or_less_disagree">
+                        <label>Stimme eher nicht zu</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="s1_q8" value="neutral">
+                        <label>Stimme weder zu noch lehne ich ab</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="s1_q8" value="more_or_less_agree">
+                        <label>Stimme eher zu</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="s1_q8" value="agree">
+                        <label>Stimme zu</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="s1_q8" value="strong_agree">
+                        <label>Stimme voll zu</label>
+                    </li>
+                </ul>
+                <label class="statement">9. Es stört mich, meine persönlichen Informationen an so viele online Unternehmen weiterzugeben. </label>
+                <ul class='likert'>
+                    <li>
+                        <input type="radio" name="s1_q9" value="strong_disagree" required>
+                        <label>Stimme gar nicht zu</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="s1_q9" value="disagree">
+                        <label>Stimme nicht zu</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="s1_q9" value="more_or_less_disagree">
+                        <label>Stimme eher nicht zu</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="s1_q9" value="neutral">
+                        <label>Stimme weder zu noch lehne ich ab</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="s1_q9" value="more_or_less_agree">
+                        <label>Stimme eher zu</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="s1_q9" value="agree">
+                        <label>Stimme zu</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="s1_q9" value="strong_agree">
+                        <label>Stimme voll zu</label>
+                    </li>
+                </ul>
+                <label class="statement">10. Ich bin besorgt, dass online Unternehmen zu viele persönliche Informationen über mich sammeln. </label>
+                <ul class='likert'>
+                    <li>
+                        <input type="radio" name="s1_q10" value="strong_disagree" required>
+                        <label>Stimme gar nicht zu</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="s1_q10" value="disagree">
+                        <label>Stimme nicht zu</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="s1_q10" value="more_or_less_disagree">
+                        <label>Stimme eher nicht zu</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="s1_q10" value="neutral">
+                        <label>Stimme weder zu noch lehne ich ab</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="s1_q10" value="more_or_less_agree">
+                        <label>Stimme eher zu</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="s1_q10" value="agree">
+                        <label>Stimme zu</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="s1_q10" value="strong_agree">
+                        <label>Stimme voll zu</label>
+                    </li>
+                </ul>
+                </div>
+            </form>
+        </div>
+    </div>
+    </body>
+
+</div>
+<form action="2_8_Demographics.html">
+<input type="submit" value="Nächste Seite" style="float: right;"/>
+</form>
+<br><br>
+</body>
+</html>
