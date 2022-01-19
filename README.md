@@ -14,7 +14,7 @@ will take over the merging of the WTP and WTA questions with the unique naming c
 
 ### Attention: 
 -	The WTP and WTA questions have the option “I don’t want to pay for the protection of data” (WTP), or “I don’t want to sell data“ (WTA). Therefore, we discussed to have the same unique name for the “I don`t want to” input and the previous slider option! 
--	The “next page” button must be changed for all carousel-items to:	<input type="button" value="Nächste Seite" style="float: right;" data-bs-target="#carouselControls" data-bs-slide="next" /> 
+-	The “next page” button must be changed for all carousel-items to:	"<input type="button" value="Nächste Seite" style="float: right;" data-bs-target="#carouselControls" data-bs-slide="next"/> "
 
 
 ## Group 2
