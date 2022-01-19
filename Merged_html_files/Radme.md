@@ -5,7 +5,7 @@ for preparing the whole study for Crowdee, all the html files must be merged int
 
 General note: In the example html: please copy all style information for the different html files if they differ into the style section under the <head> command! 
 
-##Group 1 
+## Group 1 
 
 will take over the merging of the WTP and WTA questions with the unique naming convention of inputs: gr1_q1, gr1_q2, gr1_q3…..
 Please create: 
@@ -33,10 +33,11 @@ Will take care of 3_5 Privacy Knowledge, 3_6_Pricacy_Concern and 3_7_Demographic
 Please create:
 -	1 html file with the privacy knowledge questions 3_5 Privacy Knowledge – with unique input names (according to your naming convention) 
 -	1 html file for the 3_6_Privacy_Concern questionnaire and 3_7_Demographics merged with carousel-items 
-##  Attention: 
+## Attention: 
 -	For all single choice questions (e.g. all likert scale questions!) you need to have the same unique name for all answer options! 
 -	The “next page” button must be changed for all carousel-items to: <input type="button" value="Nächste Seite" style="float: right;" data-bs-target="#carouselControls" data-bs-slide="next" /> 
-Group 4
+
+  ## Group 4
 
 Will take care of 4_3 Privacy Awarness Before, 4_4 Nudges and 4_5 Privacy Awareness After with the unique naming convention of inputs: gr4_q1, gr4_2, gr4_3….
 
