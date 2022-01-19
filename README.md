@@ -42,8 +42,8 @@ Will take care of 3_5 Privacy Knowledge, 3_6_Pricacy_Concern and 3_7_Demographic
 Will take care of 4_3 Privacy Awarness Before, 4_4 Nudges and 4_5 Privacy Awareness After with the unique naming convention of inputs: gr4_q1, gr4_2, gr4_3….
 
 ### Please create:
--	1 html file with 4_3 Privacy Awarness Before, 4_4 Nudges and 4_5 Privacy Awareness merged with the carousel items for the control group
--	1 html file with 4_3 Privacy Awarness Before, 4_4 Nudges and 4_5 Privacy Awareness merged with the carousel items for the experimental group
+-	1 html file with 4_3 Privacy Awarness Before, 4_4 Nudges and 4_5 Privacy Awareness After merged with the carousel items for the control group
+-	1 html file with 4_3 Privacy Awarness Before, 4_4 Nudges and 4_5 Privacy Awareness After merged with the carousel items for the experimental group
 ### Attention: 
 -	For all single choice questions (e.g. all likert scale questions!) you need to have the same unique name for all answer options! 
 -	The “next page” button must be changed for all carousel-items to: <input type="button" value="Nächste Seite" style="float: right;" data-bs-target="#carouselControls" data-bs-slide="next" /> 
